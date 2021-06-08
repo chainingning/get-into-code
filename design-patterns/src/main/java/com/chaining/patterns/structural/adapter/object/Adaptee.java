@@ -9,5 +9,6 @@ package com.chaining.patterns.structural.adapter.object;
  */
 public class Adaptee {
     public void SpecificRequest(){
+        System.out.println("Adaptee SpecificRequest");
     }
 }
