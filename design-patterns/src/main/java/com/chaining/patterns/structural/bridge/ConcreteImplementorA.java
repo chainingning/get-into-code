@@ -12,5 +12,6 @@ public class ConcreteImplementorA implements Implementor{
     @Override
     public void operation() {
         System.out.println("implementA main");
+        System.out.println("git main");
     }
 }
