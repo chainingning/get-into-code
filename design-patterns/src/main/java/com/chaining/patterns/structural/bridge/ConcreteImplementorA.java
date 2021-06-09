@@ -11,6 +11,6 @@ public class ConcreteImplementorA implements Implementor{
 
     @Override
     public void operation() {
-        System.out.println("implementA");
+        System.out.println("implementA test");
     }
 }
