@@ -1,4 +1,4 @@
-package com.chaining.patterns.behavioral.memento.mediator;
+package com.chaining.patterns.behavioral.mediator;
 
 import com.sun.deploy.xml.XMLNode;
 import org.springframework.context.annotation.Configuration;
