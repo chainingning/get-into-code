@@ -10,9 +10,12 @@ package com.chaining.patterns.structural.decorator;
 public class StarbuzzCoffee {
 
     public static void main(String[] args) {
+
+
         //订一杯Espresso(2.00)，不需要调料，打印出它的描述与价钱。
         Beverage beverage = new Espresso();
         System.out.println("Description: " + beverage.getDescription() + " $" + beverage.cost());
+
         //制造出一个DarkRoast(3.00)对象,用Mocha(0.2)装饰它,用第二个Mocha(0.2)装饰它,用Whip(0.4)装饰它，打印出它的描述与价钱。
         Beverage beverage2 = new DarkRoast();
         beverage2 = new Mocha(beverage2);

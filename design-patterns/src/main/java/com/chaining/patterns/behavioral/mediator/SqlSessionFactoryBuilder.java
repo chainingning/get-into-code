@@ -1,9 +1,10 @@
 package com.chaining.patterns.behavioral.mediator;
 
-import com.sun.deploy.xml.XMLNode;
+
 import org.springframework.context.annotation.Configuration;
 
-import javax.xml.bind.Element;
+
+import javax.lang.model.element.Element;
 import java.io.Reader;
 import java.util.HashMap;
 import java.util.List;
@@ -53,9 +54,5 @@ public class SqlSessionFactoryBuilder {
      * @param list element
      * @return Map
      */
-    private Map<String, XMLNode> mapperElement(List<Element> list){
-        Map<String, XMLNode> map = new HashMap<>();
-        return map;
-    }
 
 }
