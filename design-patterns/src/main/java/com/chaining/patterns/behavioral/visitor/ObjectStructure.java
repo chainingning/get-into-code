@@ -22,6 +22,7 @@ public class ObjectStructure {
      * @param visitor 客户端需要使用的访问者
      */
     public void handleRequest(Visitor visitor){
+        //循环对象结构中的元素，接受访问
         for (Element element : elementList) {
             element.accept(visitor);
         }
