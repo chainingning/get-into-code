@@ -1,6 +1,6 @@
 package com.chaining.patterns.structural.composite;
 
-import com.alibaba.fastjson.JSON;
+
 
 /**
  * <p>
@@ -30,6 +30,5 @@ public class ComponentClient {
         c2.addChild(leaf3);
 
         Component oneComponent = root.getChildren(1);
-        System.out.println(JSON.toJSONString(oneComponent));
     }
 }
