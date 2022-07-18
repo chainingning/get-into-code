@@ -9,32 +9,17 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
-    <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.4.2</version>
-        <relativePath/>
-    </parent>
-
     <modules>
         <module>design-patterns</module>
         <module>01-java-base</module>
         <module>java-test</module>
+        <module>03-java-ssm</module>
     </modules>
 
     <properties>
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-
         <dependency>
             <groupId>com.alibaba.fastjson2</groupId>
             <artifactId>fastjson2</artifactId>
