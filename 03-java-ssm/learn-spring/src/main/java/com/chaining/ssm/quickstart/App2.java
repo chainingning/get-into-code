@@ -1,6 +1,7 @@
 package com.chaining.ssm.quickstart;
 
 import com.chaining.ssm.quickstart.dao.BookDao;
+import com.chaining.ssm.quickstart.service.BookService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -20,6 +21,9 @@ public class App2 {
         //获取bean
         BookDao bookDao = (BookDao) ctx.getBean("bookDao");
         bookDao.save();
+
+        BookService bookService = (BookService) ctx.getBean("bookService");
+        bookService.save();
 
     }
 

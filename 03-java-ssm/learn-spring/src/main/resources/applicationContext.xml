@@ -8,5 +8,7 @@
     <!--    2.配置bean-->
     <bean id="bookDao" class="com.chaining.ssm.quickstart.dao.impl.BookDaoImpl"/>
 
-    <bean id="bookService" class="com.chaining.ssm.quickstart.service.impl.BookServiceImpl"/>
+    <bean id="bookService" class="com.chaining.ssm.quickstart.service.impl.BookServiceImpl">
+        <property name="bookDao" ref="bookDao"/>
+    </bean>
 </beans>
