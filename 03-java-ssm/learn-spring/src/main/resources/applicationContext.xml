@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--    1.导入spring的坐标spring-context，版本是5.2.10.RELEASE-->
+
+    <!--    2.配置bean-->
+    <bean id="bookDao" class="com.chaining.ssm.quickstart.dao.impl.BookDaoImpl"/>
+
+    <bean id="bookService" class="com.chaining.ssm.quickstart.service.impl.BookServiceImpl"/>
+</beans>
