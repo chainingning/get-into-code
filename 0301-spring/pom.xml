@@ -23,6 +23,8 @@
         <module>spring_08_di_collection</module>
         <module>spring_09_datasource</module>
         <module>spring_10_container</module>
+        <module>spring_11_annotation_bean</module>
+        <module>spring_12_annotation_bean_manager</module>
     </modules>
 
     <properties>
