@@ -19,6 +19,7 @@
         <module>spring_04_bean_lifecycle</module>
         <module>spring_05_di_set</module>
         <module>spring_06_di_constructor</module>
+        <module>spring_07_di_autoware</module>
     </modules>
 
     <properties>
