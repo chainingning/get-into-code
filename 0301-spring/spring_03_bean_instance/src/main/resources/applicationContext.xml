@@ -6,7 +6,7 @@
     <!--    方式一：构造方法实例化bean-->
     <bean id="bookDao" class="com.chaining.spring.instance.dao.impl.BookDaoImpl"/>
 
-<!--    方式二：静态工厂实例化bean-->
+    <!--    方式二：静态工厂实例化bean-->
     <bean id="orderDao" class="com.chaining.spring.instance.factory.OrderDaoFactory" factory-method="getOrder"/>
 
     <!--方式三：使用实例工厂实例化bean-->
@@ -16,4 +16,4 @@
     <!--方式四：使用FactoryBean实例化bean-->
     <bean id="userDaoFactoryBean" class="com.chaining.spring.instance.factory.UserDaoFactoryBean"/>
 
-    </beans>
+</beans>
