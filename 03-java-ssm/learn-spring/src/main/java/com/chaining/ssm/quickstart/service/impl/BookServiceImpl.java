@@ -11,6 +11,7 @@ public class BookServiceImpl implements BookService {
         System.out.println("book service save ...");
         bookDao.save();
     }
+
     //6.提供对应的set方法
     public void setBookDao(BookDao bookDao) {
         this.bookDao = bookDao;
