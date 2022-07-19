@@ -21,6 +21,7 @@
         <module>spring_06_di_constructor</module>
         <module>spring_07_di_autoware</module>
         <module>spring_08_di_collection</module>
+        <module>spring_09_datasource</module>
     </modules>
 
     <properties>
