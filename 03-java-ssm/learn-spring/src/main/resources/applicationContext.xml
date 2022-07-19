@@ -6,9 +6,14 @@
     <!--    1.导入spring的坐标spring-context，版本是5.2.10.RELEASE-->
 
     <!--    2.配置bean-->
-    <bean id="bookDao" class="com.chaining.ssm.quickstart.dao.impl.BookDaoImpl"/>
+<!--    <bean id="bookDao" class="com.chaining.ssm.quickstart.dao.impl.BookDaoImpl"/>-->
 
-    <bean id="bookService" name="bookServiceBean" class="com.chaining.ssm.quickstart.service.impl.BookServiceImpl" scope="prototype">
-        <property name="bookDao" ref="bookDao"/>
-    </bean>
+<!--    <bean id="bookService" name="bookServiceBean" class="com.chaining.ssm.quickstart.service.impl.BookServiceImpl" scope="prototype">-->
+<!--        <property name="bookDao" ref="bookDao"/>-->
+<!--    </bean>-->
+
+
+    <!--方式四：使用FactoryBean实例化bean-->
+    <bean id="userDao" class="com.chaining.ssm.beaninstance.factory.UserDaoFactoryBean"/>
+
 </beans>
