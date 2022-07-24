@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>springmvc_01_quickstart</module>
+        <module>springmvc_base_config</module>
     </modules>
 
     <properties>
