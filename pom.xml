@@ -14,6 +14,7 @@
         <module>01-java-base</module>
         <module>java-test</module>
         <module>0301-spring</module>
+        <module>0302-springmvc</module>
     </modules>
 
     <properties>
