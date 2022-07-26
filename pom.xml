@@ -15,6 +15,8 @@
         <module>java-test</module>
         <module>0301-spring</module>
         <module>0302-springmvc</module>
+        <module>0303-mybatis</module>
+        <module>02-javaWeb</module>
     </modules>
 
     <properties>
